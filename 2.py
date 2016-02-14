@@ -53,7 +53,7 @@ else:
 
 #YEAR------------------------------------------------------------------
 
-y = raw_input('\nEnter the Year! (format: yyy): ')	
+y = raw_input('\nEnter the Year! (format: yyyy): ')	
 
 #exception if negative value of the year
 
