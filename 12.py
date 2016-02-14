@@ -3,8 +3,7 @@ for N in xrange(1,100001):
     for x in xrange(1,48):
         for y in xrange(1,48):
             for z in xrange(1,48):
-                if x**3 + y**3 + z**3 == N:
-                    arr = [x, y, z]
+                if x ** 3 + y ** 3 + z ** 3 == N:
                     if (x == y and x == z and y == z):
                         continue
                     else:
